@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            body {
+              background-image: url('wbg1.webp');
+              background-size: cover;
+            }
+            </style>
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        />
+        <title>Weather App</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body align="center">
+        
+        <div class="weather-app">
+            <form class="search-form" action="">
+                <input style="font-size: x-large;"
+                    class="city-input"
+                    type="text"
+                    placeholder="Enter City Name"
+                />
+                <button class="search-btn" type="submit">
+                    <i class="material-icons">search</i>
+                </button>
+            </form>
+            <div style="font-size: x-large;" class="city-date-section">
+                <h2 style="font-size: xx-large;" class="city">Hyderabad</h2>
+                <p  class="date"><b>8 April 2024</b></p>
+            </div>
+            <div style="font-size: x-large" class="temperature-info">
+                <div class="description">
+                    <i class="material-icons"><b>sunny</b></i>
+                    <span class="description-text"><b>Sunny</b></span>
+                </div>
+                <div class="temp"><b>36°</b></div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
